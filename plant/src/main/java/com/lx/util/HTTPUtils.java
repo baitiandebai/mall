@@ -8,7 +8,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Map;
-
+/**
+ * @author LX
+ * HTTP 请求工具类 
+ */
 public class HTTPUtils {
 
 	public static String sendGet(String url) {

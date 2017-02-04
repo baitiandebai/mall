@@ -15,7 +15,11 @@ import java.util.Arrays;
 import java.util.Random;
 
 import javax.imageio.ImageIO;
-
+/**
+ * 验证码生成类
+ * @author LX
+ *
+ */
 public class VerifyCodeUtils {
 
 	public static final String VERIFY_CODES="23456789ABCDEFGHJKLMNPQRSTUVWXYZ";

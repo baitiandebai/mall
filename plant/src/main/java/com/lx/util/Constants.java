@@ -1,5 +1,9 @@
 package com.lx.util;
-
+/**
+ * 
+ * @author LX
+ * 常量类
+ */
 public class Constants {
 
 	public static final String EMPTY_PARAM = "空参数";
