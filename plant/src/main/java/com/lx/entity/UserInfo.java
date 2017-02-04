@@ -24,7 +24,7 @@ public class UserInfo {
 	@Column(name="username",length=20)
 	private String username;
 	
-	@Column(name="passwd",length=30)
+	@Column(name="passwd",length=64)
 	private String passwd;
 	
 	@Column(name="create_time")

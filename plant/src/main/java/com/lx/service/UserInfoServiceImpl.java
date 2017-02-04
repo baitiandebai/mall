@@ -8,14 +8,16 @@ import com.lx.entity.UserInfo;
 import com.lx.service.inter.UserInfoService;
 
 @Service
-public class UserInfoServiceImpl implements UserInfoService {
+public class UserInfoServiceImpl extends BaseServiceImpl<UserInfo> 
+							implements UserInfoService {
+
+//	@Autowired
+//	private UserInfoDao userInfoDao;
 
 	@Autowired
-	private UserInfoDao userInfoDao;
-
-	@Override
-	public UserInfo select(String id) {
-		return userInfoDao.select(id);
+	public void setBaseDao(UserInfoDao userInfoDao){
+		super.setBaseDao(userInfoDao);
 	}
+	
 
 }
